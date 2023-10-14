@@ -14,7 +14,7 @@ list_of_files = [
     f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuration.py",
-    f"src/{project_name}//configuration.py",
+    f"src/{project_name}/logging/__init__.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/constants/__init__.py",
@@ -41,3 +41,5 @@ for filepath in list_of_files:
             logging.info(f"Creating empty file: {filepath}")
     else:
         logging.info(f"{filename} is already exists")
+
+# https://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project/blob/main/requirements.txt
