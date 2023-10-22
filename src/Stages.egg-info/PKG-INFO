@@ -8,3 +8,15 @@ Author-email: sumit.dhakad9644@gmail.com
 Project-URL: Bug Tracker, https://github.com/SUMITDHAKAD0/Kidney-Disease-Classification-DVC-MLFlow/issues
 
 # Kidney-Disease-Classification-DVC-MLFlow
+
+Workflows
+Update config.yaml
+Update secrets.yaml [Optional]
+Update params.yaml
+Update the entity
+Update the configuration manager in src config
+Update the components
+Update the pipeline
+Update the main.py
+Update the dvc.yaml
+app.py
