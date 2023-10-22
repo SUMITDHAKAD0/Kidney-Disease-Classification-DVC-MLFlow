@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 from src.Stages.utils.common import read_yaml, create_directories, save_json
-from src.Stages.entity.config_entity import DataIngestionConfig, TrainingConfig
+from src.Stages.entity.config_entity import DataIngestionConfig, TrainingConfig, EvaluationConfig
 
 
 # Configrations
@@ -52,3 +52,14 @@ class ConfigurationManager:
         )
 
         return training_config
+    
+    def get_evaluation_config(self) -> EvaluationConfig:
+        eval_config = EvaluationConfig(
+            path_of_model="artifacts/training/model.h5",
+            training_data="artifacts/data_ingestion/kidney-ct-scan-image",
+            mlflow_uri="https://dagshub.com/SUMITDHAKAD0/Kidney-Disease-Classification-DVC-MLFlow.mlflow",
+            all_params=self.params,
+            params_image_size=self.params.IMAGE_SIZE,
+            params_batch_size=self.params.BATCH_SIZE
+        )
+        return eval_config

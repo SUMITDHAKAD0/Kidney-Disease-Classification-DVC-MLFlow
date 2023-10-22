@@ -1,13 +1,13 @@
 # Kidney-Disease-Classification-DVC-MLFlow
 
-Workflows
-Update config.yaml
-Update secrets.yaml [Optional]
-Update params.yaml
-Update the entity
-Update the configuration manager in src config
-Update the components
-Update the pipeline
-Update the main.py
-Update the dvc.yaml
-app.py
+## Workflows
+1. Update config.yaml
+2. Update secrets.yaml [Optional]
+3. Update params.yaml
+4. Update the entity
+5. Update the configuration manager in src config
+6. Update the components
+7. Update the pipeline
+8. Update the main.py
+9. Update the dvc.yaml
+10. app.py
