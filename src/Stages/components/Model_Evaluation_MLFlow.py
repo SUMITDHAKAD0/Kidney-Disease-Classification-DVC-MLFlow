@@ -3,8 +3,8 @@ from pathlib import Path
 import mlflow
 import mlflow.keras
 from urllib.parse import urlparse
-from src.Stages.entity.config_entity import EvaluationConfig
-from src.Stages.utils.common import read_yaml, create_directories,save_json
+from Stages.entity.config_entity import EvaluationConfig
+from Stages.utils.common import read_yaml, create_directories,save_json
 
 class Evaluation:
     def __init__(self, config: EvaluationConfig):

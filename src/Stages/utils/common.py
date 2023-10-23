@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from src.Stages.logging import logger
+from Stages.logging import logger
 import json
 import joblib
 from ensure import ensure_annotations

@@ -1,7 +1,7 @@
 from src.Stages.logging import logger
 from src.Stages.pipeline.Data_Ingestion_P import DataIngestionTrainingPipeline
 from src.Stages.pipeline.Model_Train_P import ModelTrainingPipeline
-from src.Stages.pipeline.Model_Evatuation_MLFlow_P import EvaluationPipeline
+from src.Stages.pipeline.Model_Evaluation_MLFlow_P import EvaluationPipeline
 
 # STAGE_NAME = "Data Ingestion stage"
 # try:

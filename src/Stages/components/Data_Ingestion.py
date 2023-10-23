@@ -1,9 +1,9 @@
 import os
 import zipfile
 import gdown
-from src.Stages.logging import logger
-from src.Stages.utils.common import get_size
-from src.Stages.entity.config_entity import DataIngestionConfig
+from Stages.logging import logger
+from Stages.utils.common import get_size
+from Stages.entity.config_entity import DataIngestionConfig
 
 # Compoment
 class DataIngestion:

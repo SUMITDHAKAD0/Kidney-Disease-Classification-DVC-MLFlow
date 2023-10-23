@@ -1,7 +1,7 @@
 from pathlib import Path
-from src.Stages.config.configuration import ConfigurationManager
-from src.Stages.components.Model_Train import Training
-from src.Stages.logging import logger
+from Stages.config.configuration import ConfigurationManager
+from Stages.components.Model_Train import Training
+from Stages.logging import logger
 
 #Loading config.yaml and prams.yaml files
 CONFIG_FILE_PATH = Path("config/config.yaml")

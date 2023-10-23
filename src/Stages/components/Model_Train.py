@@ -4,7 +4,7 @@ from zipfile import ZipFile
 import tensorflow as tf
 import time
 from pathlib import Path
-from src.Stages.entity.config_entity import TrainingConfig
+from Stages.entity.config_entity import TrainingConfig
 
 
 class Training:

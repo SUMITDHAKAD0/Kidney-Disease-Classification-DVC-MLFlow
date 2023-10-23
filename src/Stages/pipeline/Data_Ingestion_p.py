@@ -1,6 +1,6 @@
-from src.Stages.config.configuration import ConfigurationManager
-from src.Stages.components.Data_Ingestion import DataIngestion
-from src.Stages.logging import logger
+from Stages.config.configuration import ConfigurationManager
+from Stages.components.Data_Ingestion import DataIngestion
+from Stages.logging import logger
 from pathlib import Path
 
 #Loading config.yaml and prams.yaml files

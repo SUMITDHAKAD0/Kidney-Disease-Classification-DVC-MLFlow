@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
-from src.Stages.utils.common import read_yaml, create_directories, save_json
-from src.Stages.entity.config_entity import DataIngestionConfig, TrainingConfig, EvaluationConfig
+from Stages.utils.common import read_yaml, create_directories, save_json
+from Stages.entity.config_entity import DataIngestionConfig, TrainingConfig, EvaluationConfig
 
 
 # Configrations
