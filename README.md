@@ -39,8 +39,13 @@ pip install -r requirements.txt
 
 
 ```bash
-# Finally run the following command 
+# Finally run the following command to run Pipeline
 python main.py
+```
+
+```bash
+# Run the following command to start app
+python app.py
 ```
 
 
